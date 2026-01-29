@@ -48,49 +48,31 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <span>National Transformation Platform</span>
-                </div>
-                <h1 class="hero-title">
-                    <span class="highlight">Nurturing Minds.</span> Shaping Constructive Thoughts. <span class="highlight">Building the Nation.</span>
-                </h1>
-                <p class="hero-subtitle">
-                    PERTC is Pakistan's pioneer Economic Research & Training Think Tank, committed to transforming Pakistan into a knowledge-driven, research-oriented, skilled, and globally competitive economy.
-                </p>
-                <div class="hero-buttons">
-                    <a href="roadmap.html" class="btn btn-primary">
-                        <span>2047 Roadmap</span>
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
-                    <a href="contact-us.html" class="btn btn-secondary">
-                        <span>Partner With Us</span>
-                        <i class="fas fa-handshake"></i>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="hero-image">
-                <div class="image-container">
-                    <div class="floating-card card1">
-                        <i class="fas fa-brain"></i>
-                        <h4>Mindset Transformation</h4>
-                    </div>
-                    <div class="floating-card card2">
-                        <i class="fas fa-rocket"></i>
-                        <h4>Innovation Hub</h4>
-                    </div>
-                    <div class="floating-card card3">
-                        <i class="fas fa-globe-asia"></i>
-                        <h4>Global Competitiveness</h4>
-                    </div>
-                    <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Economic Research" class="main-img">
-                </div>
-            </div>
+    
+<section class="new-hero-section">
+    <div class="new-hero-overlay"></div>
+    <div class="new-hero-content">
+        <h1>Nurturing Minds. <span> Shaping Constructive Thoughts</span>. Building the Nation.</h1>
+        <p>PERTC is Pakistan's pioneer Economic Research & Training Think Tank, committed to transforming Pakistan into a knowledge-driven, research-oriented, skilled, and globally competitive economy.</p>
+        <div class="new-hero-buttons">
+            <a href="#roadmap" class="new-hero-button new-hero-button-roadmap">Roadmap</a>
+            <a href="#contact" class="new-hero-button new-hero-button-contact">Contact Us</a>
         </div>
-    </section>
+    </div>
+</section>
+
+<script>
+    // Smooth scroll for buttons
+    document.querySelectorAll('.new-hero-button').forEach(button => {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if(target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+</script>
 
     <!-- About PERTC -->
     <section class="section" id="about">
