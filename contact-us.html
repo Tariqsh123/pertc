@@ -9,23 +9,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .nav-link:hover{
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container nav-container">
             <div class="logo">
-                <img src="images/logo.png" alt="PERTC Logo" class="logo-img">
+                <img src="images/logo.webp" alt="PERTC Logo" title="PERTC Logo" loading="lazy" class="logo-img">
             </div>
             
             <div class="nav-links">
-                <a href="index.html" class="nav-link active">Home</a>
-                <a href="about-us.html" class="nav-link">About</a>
-                <a href="vision-mission.html" class="nav-link">Vision</a>
-                <a href="focus-areas.html" class="nav-link">Focus Areas</a>
-                <a href="articles.html" class="nav-link">Articles</a>
-                <a href="roadmap.html" class="nav-link">Roadmap</a>
-                <a href="contact-us.html" class="nav-link">Contact</a>
+                <a title="Home" href="index.html" class="nav-link active">Home</a>
+                <a title="About" href="about-us.html" class="nav-link">About</a>
+                <a title="Vision Mission" href="vision-mission.html" class="nav-link">Vision</a>
+                <a title="Focus Area" href="focus-areas.html" class="nav-link">Focus Areas</a>
+                <a title="Articles" href="articles.html" class="nav-link">Articles</a>
+                <a title="Roadmap" href="roadmap.html" class="nav-link">Roadmap</a>
+                <a title="Contact Us" href="contact-us.html" class="nav-link">Contact</a>
+                <a title="Account" href="account.html" class="nav-link">Account</a>
             </div>
             
             <button class="hamburger" id="hamburger">
@@ -39,13 +45,14 @@
     <!-- Mobile Menu -->
     <div class="mobile-menu" id="mobileMenu">
         <div class="mobile-menu-content">
-            <a href="index.html" class="mobile-nav-link active">Home</a>
-            <a href="about-us.html" class="mobile-nav-link">About</a>
-            <a href="vision-mission.html" class="mobile-nav-link">Vision</a>
-            <a href="focus-areas.html" class="mobile-nav-link">Focus Areas</a>
-            <a href="articles.html" class="mobile-nav-link">Articles</a>
-            <a href="roadmap.html" class="mobile-nav-link">Roadmap</a>
-            <a href="contact-us.html" class="mobile-nav-link">Contact</a>
+            <a title="Home" href="index.html" class="mobile-nav-link active">Home</a>
+            <a title="About Us" href="about-us.html" class="mobile-nav-link">About</a>
+            <a title="Vision Mission" href="vision-mission.html" class="mobile-nav-link">Vision</a>
+            <a title="Focus Area" href="focus-areas.html" class="mobile-nav-link">Focus Areas</a>
+            <a title="Articles" href="articles.html" class="mobile-nav-link">Articles</a>
+            <a title="Roadmap" href="roadmap.html" class="mobile-nav-link">Roadmap</a>
+            <a title="Contact Us" href="contact-us.html" class="mobile-nav-link">Contact</a>
+            <a title="Account" href="account.html" class="mobile-nav-link">Account</a>
         </div>
     </div>
 
@@ -126,19 +133,19 @@
                 <div class="contact-social">
                     <h4><i class="fas fa-share-alt"></i> Follow Us</h4>
                     <div class="contact-social-icons">
-                        <a href="#" class="contact-social-icon">
+                        <a title="Twitter" href="#" class="contact-social-icon">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="#" class="contact-social-icon">
+                        <a title="Linkedin" href="#" class="contact-social-icon">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                        <a href="#" class="contact-social-icon">
+                        <a title="Facebook" href="#" class="contact-social-icon">
                             <i class="fab fa-facebook"></i>
                         </a>
-                        <a href="#" class="contact-social-icon">
+                        <a title="Youtube" href="#" class="contact-social-icon">
                             <i class="fab fa-youtube"></i>
                         </a>
-                        <a href="#" class="contact-social-icon">
+                        <a title="Instagram" href="#" class="contact-social-icon">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </div>
@@ -369,11 +376,11 @@
                     Join us in building Pakistan's economic future. Whether you're a policymaker, investor, international partner, academic institution, or future leader, there's a role for you in Pakistan's journey to becoming a top 10 global economy.
                 </p>
                 <div class="cta-buttons">
-                    <a href="contact-us.html" class="btn btn-primary">
+                    <a href="account.html" title="Account" class="btn btn-primary">
                         <span>Become a Partner</span>
                         <i class="fas fa-handshake"></i>
                     </a>
-                    <a href="roadmap.html" class="btn btn-outline">
+                    <a href="roadmap.html" title="Roadmap" class="btn btn-outline">
                         <span>Explore 2047 Roadmap</span>
                         <i class="fas fa-road"></i>
                     </a>
@@ -387,27 +394,29 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="images/logo.png" alt="PERTC Logo" class="logo-img">
+                    <img src="images/logo.webp" alt="PERTC Logo" title="PERTC Logo" loading="lazy" class="logo-img">
                     <p class="footer-description">
                         Pakistan Economic Research & Training Centre (PERTC) - A national transformation platform driving Pakistan toward becoming a top 10 global economy by 2047 through knowledge, skills, and innovation.
                     </p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a title="Twitter" href="#"><i class="fab fa-twitter"></i></a>
+                        <a title="Linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+                        <a title="Facebook" href="#"><i class="fab fa-facebook"></i></a>
+                        <a title="Youtube" href="#"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 
                 <div class="footer-links">
                     <h3>Quick Links</h3>
-                    <a href="index.html">Home</a>
-                    <a href="about-us.html">About PERTC</a>
-                    <a href="vision-mission.html">Vision & Mission</a>
-                    <a href="focus-areas.html">Focus Areas</a>
-                    <a href="articles.html">Articles</a>
-                    <a href="roadmap.html">Roadmap</a>
-                    <a href="contact-us.html">Contact Us</a>
+                    <a title="Home" href="index.html">Home</a>
+                    <a title="About" href="about-us.html">About PERTC</a>
+                    <a title="Vision Mission" href="vision-mission.html">Vision & Mission</a>
+                    <a title="Focus Area" href="focus-areas.html">Focus Areas</a>
+                    <a title="Sitemap" href="sitemap.html">Sitemap</a>
+                    <a title="Articles" href="articles.html">Articles</a>
+                    <a title="Roadmap" href="roadmap.html">Roadmap</a>
+                    <a title="Contact Us" href="contact-us.html">Contact Us</a>
+                    <a title="Account" href="account.html">Account</a>
                 </div>
                 
                 <div class="footer-contact">
@@ -440,8 +449,8 @@
             <div class="footer-bottom">
                 <p>&copy; 2026 Pakistan Economic Research & Training Centre (PERTC). All rights reserved. <strong>Badal Do Soch, Badal Do Pakistan</strong></p>
                 <div class="footer-legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Use</a>
+                    <a title="Privacy Policy" href="privacy.html">Privacy Policy</a>
+                    <a title="Terms & Conditions" href="terms.html">Terms of Use</a>
                 </div>
             </div>
         </div>
